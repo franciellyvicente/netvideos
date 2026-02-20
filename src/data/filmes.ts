@@ -1,0 +1,148 @@
+export interface Filme {
+  id: number;
+  titulo: string;
+  descricao: string;
+  duracao: string;
+  classificacao: string;
+  categoria: string;
+  imagem: string;
+  ano: number;
+  diretor: string;
+  avaliacao: number;
+  tipo: "filme";
+}
+
+export const filmes: Filme[] = [
+  {
+    id: 1,
+    titulo: "O Último Horizonte",
+    descricao: "Um astronauta solitário descobre um sinal misterioso vindo de uma galáxia distante e parte em uma jornada que irá mudar a humanidade para sempre.",
+    duracao: "2h 18min",
+    classificacao: "12",
+    categoria: "Ficção Científica",
+    imagem: "https://picsum.photos/seed/space1/400/600",
+    ano: 2024,
+    diretor: "Carlos Mendes",
+    avaliacao: 8.7,
+    tipo: "filme",
+  },
+  {
+    id: 2,
+    titulo: "Sombras do Passado",
+    descricao: "Uma detetive obcecada com um caso não resolvido de 20 anos descobre que o assassino pode ser alguém muito mais próximo do que imagina.",
+    duracao: "1h 54min",
+    classificacao: "16",
+    categoria: "Suspense",
+    imagem: "https://picsum.photos/seed/thriller1/400/600",
+    ano: 2023,
+    diretor: "Ana Lima",
+    avaliacao: 8.2,
+    tipo: "filme",
+  },
+  {
+    id: 3,
+    titulo: "Terra em Chamas",
+    descricao: "Em um futuro devastado pelas mudanças climáticas, uma jovem cientista lidera a última esperança da humanidade para restaurar o planeta.",
+    duracao: "2h 05min",
+    classificacao: "14",
+    categoria: "Ação",
+    imagem: "https://picsum.photos/seed/action1/400/600",
+    ano: 2024,
+    diretor: "Roberto Silva",
+    avaliacao: 7.9,
+    tipo: "filme",
+  },
+  {
+    id: 4,
+    titulo: "A Última Canção",
+    descricao: "Um músico talentoso perde sua memória em um acidente e precisa redescobrir quem é através da música e do amor que deixou para trás.",
+    duracao: "1h 48min",
+    classificacao: "Livre",
+    categoria: "Drama",
+    imagem: "https://picsum.photos/seed/drama1/400/600",
+    ano: 2023,
+    diretor: "Beatriz Costa",
+    avaliacao: 7.5,
+    tipo: "filme",
+  },
+  {
+    id: 5,
+    titulo: "Guardiões da Noite",
+    descricao: "Cinco super-heróis com poderes elementais precisam unir forças para impedir uma entidade sombria de mergulhar o mundo em trevas eternas.",
+    duracao: "2h 32min",
+    classificacao: "12",
+    categoria: "Aventura",
+    imagem: "https://picsum.photos/seed/hero1/400/600",
+    ano: 2024,
+    diretor: "Marcos Oliveira",
+    avaliacao: 8.4,
+    tipo: "filme",
+  },
+  {
+    id: 6,
+    titulo: "Risos Eternos",
+    descricao: "Três amigos inseparáveis de infância se reencontram após 15 anos em uma viagem nostálgica que vai remexer todas as suas vidas e memórias.",
+    duracao: "1h 42min",
+    classificacao: "12",
+    categoria: "Comédia",
+    imagem: "https://picsum.photos/seed/comedy1/400/600",
+    ano: 2023,
+    diretor: "Fernanda Ramos",
+    avaliacao: 7.2,
+    tipo: "filme",
+  },
+  {
+    id: 7,
+    titulo: "Abismo",
+    descricao: "Uma equipe de mergulhadores profissionais encontra uma civilização submarina perdida e descobre que ela não quer ser encontrada.",
+    duracao: "2h 10min",
+    classificacao: "14",
+    categoria: "Terror",
+    imagem: "https://picsum.photos/seed/horror1/400/600",
+    ano: 2024,
+    diretor: "Paulo Neves",
+    avaliacao: 7.8,
+    tipo: "filme",
+  },
+  {
+    id: 8,
+    titulo: "O Imperador de Areia",
+    descricao: "Em um reino árido e cruel, um escravo se torna o guerreiro mais temido do deserto em sua busca por liberdade e vingança.",
+    duracao: "2h 24min",
+    classificacao: "16",
+    categoria: "Épico",
+    imagem: "https://picsum.photos/seed/epic1/400/600",
+    ano: 2023,
+    diretor: "Diego Ferreira",
+    avaliacao: 8.6,
+    tipo: "filme",
+  },
+  {
+    id: 9,
+    titulo: "Código Vermelho",
+    descricao: "Uma hacker genial é recrutada pelo governo para deter um ataque cibernético que pode desligar toda a infraestrutura do país em 24 horas.",
+    duracao: "1h 58min",
+    classificacao: "14",
+    categoria: "Ação",
+    imagem: "https://picsum.photos/seed/hacker1/400/600",
+    ano: 2024,
+    diretor: "Juliana Torres",
+    avaliacao: 8.0,
+    tipo: "filme",
+  },
+  {
+    id: 10,
+    titulo: "Alma Livre",
+    descricao: "Baseado em fatos reais, a emocionante história de um jovem músico brasileiro que conquistou o mundo saindo do menor dos vilarejos do nordeste.",
+    duracao: "2h 02min",
+    classificacao: "Livre",
+    categoria: "Biografia",
+    imagem: "https://picsum.photos/seed/bio1/400/600",
+    ano: 2023,
+    diretor: "Maria Santos",
+    avaliacao: 8.9,
+    tipo: "filme",
+  },
+];
+
+export const categoriesFilmes = ["Todos", "Ficção Científica", "Suspense", "Ação", "Drama", "Aventura", "Comédia", "Terror", "Épico", "Biografia"];
