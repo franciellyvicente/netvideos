@@ -36,3 +36,5 @@ Typography: Montserrat (headings) + Inter (body text)
 🤖 AI Assistance
 
 This project was developed with the support of the AI platform Lovable, which assisted in generating layout ideas, visual elements, and development structure.
+
+https://netvideos.lovable.app
