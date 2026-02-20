@@ -1,0 +1,148 @@
+export interface Serie {
+  id: number;
+  titulo: string;
+  descricao: string;
+  temporadas: number;
+  episodios: number;
+  classificacao: string;
+  categoria: string;
+  imagem: string;
+  ano: number;
+  avaliacao: number;
+  tipo: "serie";
+}
+
+export const series: Serie[] = [
+  {
+    id: 101,
+    titulo: "Império das Sombras",
+    descricao: "Uma família que domina o submundo do crime no Brasil descobre que seu maior inimigo pode estar dentro de casa, numa trama cheia de reviravoltas.",
+    temporadas: 4,
+    episodios: 48,
+    classificacao: "18",
+    categoria: "Crime",
+    imagem: "https://picsum.photos/seed/crime1/400/600",
+    ano: 2021,
+    avaliacao: 9.1,
+    tipo: "serie",
+  },
+  {
+    id: 102,
+    titulo: "Fronteiras do Tempo",
+    descricao: "Um grupo de cientistas cria uma máquina do tempo e, ao usá-la sem controle, divide o mundo em linhas temporais paralelas e perigosas.",
+    temporadas: 3,
+    episodios: 30,
+    classificacao: "14",
+    categoria: "Ficção Científica",
+    imagem: "https://picsum.photos/seed/scifi2/400/600",
+    ano: 2022,
+    avaliacao: 8.8,
+    tipo: "serie",
+  },
+  {
+    id: 103,
+    titulo: "Sangue e Honra",
+    descricao: "Ambientada no Brasil colonial, a saga épica de uma guerreira indígena que lidera uma revolta contra os colonizadores em nome de seu povo.",
+    temporadas: 2,
+    episodios: 20,
+    classificacao: "16",
+    categoria: "Épico Histórico",
+    imagem: "https://picsum.photos/seed/hist1/400/600",
+    ano: 2023,
+    avaliacao: 8.5,
+    tipo: "serie",
+  },
+  {
+    id: 104,
+    titulo: "Noite de Lobos",
+    descricao: "Em uma cidade onde criaturas sobrenaturais convivem secretamente com humanos, uma jornalista descobre a verdade e se torna a única que pode manter a paz.",
+    temporadas: 5,
+    episodios: 60,
+    classificacao: "16",
+    categoria: "Fantasia",
+    imagem: "https://picsum.photos/seed/fantasy1/400/600",
+    ano: 2020,
+    avaliacao: 8.3,
+    tipo: "serie",
+  },
+  {
+    id: 105,
+    titulo: "Start-Up Brasil",
+    descricao: "O dia a dia caótico e inspirador de quatro empreendedores que tentam construir a maior empresa de tecnologia do país partindo do zero.",
+    temporadas: 3,
+    episodios: 36,
+    classificacao: "12",
+    categoria: "Drama",
+    imagem: "https://picsum.photos/seed/startup1/400/600",
+    ano: 2022,
+    avaliacao: 7.9,
+    tipo: "serie",
+  },
+  {
+    id: 106,
+    titulo: "Divisão Delta",
+    descricao: "Uma unidade de elite da polícia enfrenta uma organização criminosa sofisticada que parece sempre um passo à frente das autoridades.",
+    temporadas: 4,
+    episodios: 44,
+    classificacao: "18",
+    categoria: "Ação",
+    imagem: "https://picsum.photos/seed/police1/400/600",
+    ano: 2021,
+    avaliacao: 8.6,
+    tipo: "serie",
+  },
+  {
+    id: 107,
+    titulo: "Casa dos Segredos",
+    descricao: "Oito estranhos presos em uma mansão isolada percebem que um de seus hóspedes não é quem diz ser — e a verdade pode custar vidas.",
+    temporadas: 2,
+    episodios: 16,
+    classificacao: "16",
+    categoria: "Suspense",
+    imagem: "https://picsum.photos/seed/mystery1/400/600",
+    ano: 2023,
+    avaliacao: 8.0,
+    tipo: "serie",
+  },
+  {
+    id: 108,
+    titulo: "Família no Caos",
+    descricao: "Uma família completamente disfuncional de São Paulo tenta sobreviver ao cotidiano enquanto esconde um segredo que poderia destruir tudo.",
+    temporadas: 6,
+    episodios: 72,
+    classificacao: "12",
+    categoria: "Comédia",
+    imagem: "https://picsum.photos/seed/family1/400/600",
+    ano: 2019,
+    avaliacao: 7.7,
+    tipo: "serie",
+  },
+  {
+    id: 109,
+    titulo: "Medicina Extrema",
+    descricao: "Uma médica brilhante mas controversa lidera a equipe de emergência mais caótica do país, salvando vidas enquanto destrói as suas próprias.",
+    temporadas: 5,
+    episodios: 55,
+    classificacao: "14",
+    categoria: "Drama Médico",
+    imagem: "https://picsum.photos/seed/medical1/400/600",
+    ano: 2020,
+    avaliacao: 8.4,
+    tipo: "serie",
+  },
+  {
+    id: 110,
+    titulo: "A Profecia",
+    descricao: "Quando antigas profecias começam a se cumprir em uma pequena cidade do interior, apenas uma adolescente consegue ver o que está por vir.",
+    temporadas: 3,
+    episodios: 24,
+    classificacao: "14",
+    categoria: "Mistério",
+    imagem: "https://picsum.photos/seed/prophecy1/400/600",
+    ano: 2022,
+    avaliacao: 8.2,
+    tipo: "serie",
+  },
+];
+
+export const categoriesSeries = ["Todas", "Crime", "Ficção Científica", "Épico Histórico", "Fantasia", "Drama", "Ação", "Suspense", "Comédia", "Drama Médico", "Mistério"];
